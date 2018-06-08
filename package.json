@@ -1,6 +1,6 @@
 {
-  "name": "elegant-status",
-  "version": "1.1.0",
+  "name": "elegant-status-extended",
+  "version": "1.2.0",
   "description": "Create elegant task status for CLI.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inikulin/elegant-status.git"
+    "url": "git+https://github.com/jhalehol/elegant-status.git"
   },
   "keywords": [
     "status",
@@ -20,7 +20,7 @@
     "process",
     "task"
   ],
-  "author": "Ivan Nikulin (ifaaan@gmail.com)",
+  "author": "Jhon Alexander Holguin, forked from Ivan Nikulin (ifaaan@gmail.com) - original -> elegant-status",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/inikulin/elegant-status/issues"
@@ -28,7 +28,7 @@
   "files": [
     "index.js"
   ],
-  "homepage": "https://github.com/inikulin/elegant-status#readme",
+  "homepage": "https://github.com/jhalehol/elegant-status/blob/master/README.md",
   "dependencies": {
     "chalk": "^1.1.1",
     "elegant-spinner": "^1.0.1",
