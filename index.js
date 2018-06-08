@@ -17,7 +17,7 @@ module.exports = function createElegantStatus (text) {
 
     
 
-    function done(success,) {
+    function done(success) {
         var status = success ?
                      chalk.green(successSymbol) :
                      chalk.red(errorSymbol);
