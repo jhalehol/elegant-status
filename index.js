@@ -15,9 +15,7 @@ module.exports = function createElegantStatus (text) {
 
     animation.unref();
 
-    
-
-    function done(success) {
+    function done (success) {
         var status = success ?
                      chalk.green(successSymbol) :
                      chalk.red(errorSymbol);
@@ -28,21 +26,15 @@ module.exports = function createElegantStatus (text) {
     }
 
     done.updateSymbols = function (success, error) {
-        if (success) {
-            successSymbol = success;
-        }
-        if (error) {
-            errorSymbol = error;
-        }
-    }
+        if (success) successSymbol = success;
+        if (error) errorSymbol = error;
+    };
 
     done.stop = function (clearText) {
         clearInterval(animation);
-        if (clearText) {
-            logUpdate('');
-        }
+        if (clearText) logUpdate('');
         console.log();
-    }
+    };
 
     done.updateText = function (newText) {
         text = newText;
