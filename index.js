@@ -33,7 +33,6 @@ module.exports = function createElegantStatus (text) {
     done.stop = function (clearText) {
         clearInterval(animation);
         if (clearText) logUpdate('');
-        console.log();
     };
 
     done.updateText = function (newText) {
