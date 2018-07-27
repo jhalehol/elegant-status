@@ -1,6 +1,6 @@
 {
   "name": "elegant-status-extended",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Create elegant task status for CLI.",
   "main": "index.js",
   "scripts": {
